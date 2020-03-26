@@ -8,6 +8,11 @@
 
 /* Begin PBXBuildFile section */
 		20F46D2824233E1200D05B77 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 20F46D2724233E1200D05B77 /* main.cpp */; };
+		20F46D3424233EBA00D05B77 /* low_open.c in Sources */ = {isa = PBXBuildFile; fileRef = 20F46D2E24233EBA00D05B77 /* low_open.c */; };
+		20F46D3524233EBA00D05B77 /* hello_client.c in Sources */ = {isa = PBXBuildFile; fileRef = 20F46D3024233EBA00D05B77 /* hello_client.c */; };
+		20F46D3624233EBA00D05B77 /* fd_seri.c in Sources */ = {isa = PBXBuildFile; fileRef = 20F46D3124233EBA00D05B77 /* fd_seri.c */; };
+		20F46D3724233EBA00D05B77 /* hello_server.c in Sources */ = {isa = PBXBuildFile; fileRef = 20F46D3224233EBA00D05B77 /* hello_server.c */; };
+		20F46D3824233EBA00D05B77 /* low_read.c in Sources */ = {isa = PBXBuildFile; fileRef = 20F46D3324233EBA00D05B77 /* low_read.c */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -25,6 +30,12 @@
 /* Begin PBXFileReference section */
 		20F46D2424233E1200D05B77 /* network */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = network; sourceTree = BUILT_PRODUCTS_DIR; };
 		20F46D2724233E1200D05B77 /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
+		20F46D2E24233EBA00D05B77 /* low_open.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = low_open.c; path = "../../../../Downloads/src-code/low_open.c"; sourceTree = "<group>"; };
+		20F46D2F24233EBA00D05B77 /* data.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = data.txt; path = "../../../../Downloads/src-code/data.txt"; sourceTree = "<group>"; };
+		20F46D3024233EBA00D05B77 /* hello_client.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = hello_client.c; path = "../../../../Downloads/src-code/hello_client.c"; sourceTree = "<group>"; };
+		20F46D3124233EBA00D05B77 /* fd_seri.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = fd_seri.c; path = "../../../../Downloads/src-code/fd_seri.c"; sourceTree = "<group>"; };
+		20F46D3224233EBA00D05B77 /* hello_server.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = hello_server.c; path = "../../../../Downloads/src-code/hello_server.c"; sourceTree = "<group>"; };
+		20F46D3324233EBA00D05B77 /* low_read.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = low_read.c; path = "../../../../Downloads/src-code/low_read.c"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -57,6 +68,12 @@
 		20F46D2624233E1200D05B77 /* network */ = {
 			isa = PBXGroup;
 			children = (
+				20F46D2F24233EBA00D05B77 /* data.txt */,
+				20F46D3124233EBA00D05B77 /* fd_seri.c */,
+				20F46D3024233EBA00D05B77 /* hello_client.c */,
+				20F46D3224233EBA00D05B77 /* hello_server.c */,
+				20F46D2E24233EBA00D05B77 /* low_open.c */,
+				20F46D3324233EBA00D05B77 /* low_read.c */,
 				20F46D2724233E1200D05B77 /* main.cpp */,
 			);
 			path = network;
@@ -119,7 +136,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				20F46D3424233EBA00D05B77 /* low_open.c in Sources */,
 				20F46D2824233E1200D05B77 /* main.cpp in Sources */,
+				20F46D3624233EBA00D05B77 /* fd_seri.c in Sources */,
+				20F46D3724233EBA00D05B77 /* hello_server.c in Sources */,
+				20F46D3824233EBA00D05B77 /* low_read.c in Sources */,
+				20F46D3524233EBA00D05B77 /* hello_client.c in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
